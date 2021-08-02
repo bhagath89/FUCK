@@ -121,6 +121,6 @@ def cmd_bdlist(update: Update, context: CallbackContext) -> None:
 
 
 dispatcher.add_handler(CommandHandler("bdlist", cmd_bdlist))
-dispatcher.add_handler(CommandHandler("addchat", cmd_addchat))
-dispatcher.add_handler(CommandHandler("rmchat", cmd_rmchat))
+dispatcher.add_handler(CommandHandler("add", cmd_addchat))
+dispatcher.add_handler(CommandHandler("remove", cmd_rmchat))
 dispatcher.add_handler(CommandHandler("broadcast", cmd_broadcast))
